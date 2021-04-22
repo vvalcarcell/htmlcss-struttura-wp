@@ -41,7 +41,7 @@ nav {
 .img {
     height: 300px;
     background-color: darksalmon;
-    margin: 20px 0;
+    margin-bottom: 15px;
 }
 
 main {
@@ -54,5 +54,33 @@ main section {
 
 .top {
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
+.main-container {
+    width: 1000px;
+}
+
+.main-container section {
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.left, .right {
+    width: calc(25% - 15px);
+}
+
+.center {
+    width: 50%;
+    margin: 0 15px;
+}
+
+footer {
+    height: 50px;
+    margin: 10px 0;
+    background-color: darkmagenta;
+}
+
+
+
+
