@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Utility Classes*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*End Utility Classes*/
+
+.container {
+    width: 1000px;
+    margin: 5px auto;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(194, 79, 102);
+}
+
+nav {
+    height: 20px;
+    background-color: rgb(63, 139, 139);
+    margin: 10px 0;
+}
+
+.img {
+    height: 300px;
+    background-color: darksalmon;
+    margin: 20px 0;
+}
+
+main {
+    background-color: rgb(51, 116, 180);
+}
+
+main section {
+    background-color: rgb(133, 183, 233);
+}
+
+.top {
+    height: 50px;
+    margin-bottom: 20px;
+}
